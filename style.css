@@ -1,0 +1,25 @@
+.row {
+  text-align: center;
+}
+
+.dot{
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: black;
+  margin: 2rem;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.full {
+  width: 2rem;
+  height: 2rem;
+  background-color: green;
+  margin: 1.5rem;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.highlight {
+  box-shadow: 0 0 .6rem blue;
+}
