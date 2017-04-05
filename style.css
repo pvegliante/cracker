@@ -1,25 +1,47 @@
 .row {
   text-align: center;
+  margin: 0;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .dot{
   height: 1.5rem;
   width: 1.5rem;
-  background-color: black;
+  background-color: white;
   margin: 2rem;
   display: inline-block;
   border-radius: 100%;
+  box-shadow: 0px 1px black;
 }
 
 .full {
   width: 2rem;
   height: 2rem;
-  background-color: green;
+  background-color: red;
   margin: 1.5rem;
   display: inline-block;
   border-radius: 100%;
+  box-shadow: 0px 1px black;
+}
+
+.hover:hover {
+  background-color: lightgreen;
 }
 
 .highlight {
-  box-shadow: 0 0 .6rem blue;
+  box-shadow: 0 0 .6rem black;
+}
+
+#peg {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 5rem;
+}
+
+body {
+  background: linear-gradient(to bottom, #949494 0%, #878787 44%, #8f8f8f 77%, #a6a6a6 100%);
 }
